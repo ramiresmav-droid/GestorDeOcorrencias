@@ -1,4 +1,3 @@
-plugins { id 'com.android.application' }
-android { namespace 'pt.pendentes.app'; compileSdk 35
-    defaultConfig { applicationId 'pt.pendentes.app'; minSdk 24; targetSdk 35; versionCode 3; versionName '1.2' }
+plugins {
+    id 'com.android.application' version '8.7.3' apply false
 }
